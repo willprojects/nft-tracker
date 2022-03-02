@@ -1,0 +1,32 @@
+{
+  "id": "meebits",
+  "slug": "meebits",
+  "name": "Meebits",
+  "created_date": "2021-05-03T01:32:41.897161",
+  "description": "The Meebits are 20,000 unique 3D voxel characters, created by a custom generative algorithm, then registered on the Ethereum blockchain.",
+  "discord_url": "https://discord.gg/tQp4pSE",
+  "external_url": null,
+  "image_url": "https://lh3.googleusercontent.com/d784iHHbqQFVH1XYD6HoT4u3y_Fsu_9FZUltWjnOzoYv7qqB5dLUqpGyHBd8Gq3h4mykK5Enj8pxqOUorgD2PfIWcVj9ugvu8l0=s120",
+  "large_image_url": null,
+  "banner_image_url": "https://lh3.googleusercontent.com/qwnNTSRrf9CVq4LGawMcg7i2KZhD9I5LHA4uSNnB43-UAniBBgpNMSIz013HCKtrB9KFjrJUIRwpGbTzzNA4srJV39t3LnW3vaugmB8=s2500",
+  "medium_username": null,
+  "twitter_username": "larvalabs",
+  "instagram_username": null,
+  "stats": {
+    "one_day_volume": 129.9668,
+    "one_day_change": -0.06347317833409981,
+    "one_day_sales": 24,
+    "one_day_average_price": 5.415283333333334,
+    "seven_day_volume": 864.293737162313,
+    "seven_day_change": 0.06381019176239995,
+    "seven_day_sales": 162,
+    "seven_day_average_price": 5.335146525693291,
+    "total_volume": 70710.0414207323,
+    "total_sales": 12708,
+    "total_supply": 20000,
+    "num_owners": 5227,
+    "average_price": 5.564214779723978,
+    "market_cap": 106702.93051386581,
+    "floor_price": 4.05
+  }
+}
