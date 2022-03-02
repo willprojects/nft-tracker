@@ -3,6 +3,7 @@ from dataclasses import dataclass, field
 from typing import Optional, Dict
 import requests
 from dataclasses_json import dataclass_json, config as dt_json_config, CatchAll
+import pandas as pd
 
 COLLECTIONS_ENDPOINT_URL = "https://collections.rarity.tools/static/collections.json"
 
@@ -97,3 +98,10 @@ def get_all_collections() -> Collections:
 		collections.collections[i] = Collection.from_dict(json["collections"][i])
 
 	return collections
+
+
+def get_collections_df():
+	res = requests.get(COLLECTIONS_ENDPOINT_URL)
+	json = res.json()
+	return pd.json_normalize(json['collections'])
+
